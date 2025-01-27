@@ -50,6 +50,7 @@
 			T.corners[i] = new/datum/lighting_corner(T, LIGHTING_CORNER_DIAGONAL[i])
 
 /hook/startup/proc/setup_lighting()
+	set waitfor = 0
 	create_lighting()
 	return TRUE
 

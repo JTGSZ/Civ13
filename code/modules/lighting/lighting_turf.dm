@@ -17,7 +17,7 @@
 
 	if (opacity)
 		has_opaque_atom = TRUE
-	spawn(5)
+	spawn(1)
 		var/area/A = get_area(src)
 		if (A.dynamic_lighting)
 			lighting_build_overlay()
